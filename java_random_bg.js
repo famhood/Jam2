@@ -7,5 +7,6 @@ function random_bg_color() {
   
     document.body.style.background = bgColor;
     }
-
+    
 random_bg_color();
+setInterval("random_bg_color()", 500);
